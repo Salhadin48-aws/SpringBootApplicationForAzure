@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: java-app
-          path: 'build/libs/SpringBoorProdApplication-0.0.1-SNAPSHOT.jar'
+          path: 'build/libs/SpringBootProdApplication-0.0.1-SNAPSHOT.jar'
 
   deploy:
     runs-on: ubuntu-latest
