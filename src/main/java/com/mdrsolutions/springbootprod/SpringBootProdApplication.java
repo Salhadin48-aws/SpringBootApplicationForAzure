@@ -8,14 +8,10 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 @SpringBootApplication
 //@EnableAutoConfiguration
-public class SpringBootProdApplication extends SpringBootServletInitializer {
+public class SpringBootProdApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootProdApplication.class, args);
 	}
 
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return builder.sources(SpringBootProdApplication.class);
-	}
 }
